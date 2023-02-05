@@ -10,14 +10,19 @@ body {
   background-color: #E7F6FF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  &:hover {
+    outline: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .card {
-background: #FFFFFF;
-border: 1px solid #F3F3F3;
-border-radius: 40px;
-width: 210px;
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  border-radius: 40px;
+  width: 210px;
 }
